@@ -1,0 +1,56 @@
+    /* 去除所有元素預設border & margin */
+    * {
+        border: 0;
+        margin: 0;
+    }
+
+    .container01 {
+        max-width: 1000px;
+        min-width: 1000px;
+        margin: 30px auto;
+        font-family: 標楷體, 'Times New Roman';
+        background-color: rgb(99, 98, 98);
+        border: 2px solid rgb(88, 19, 19);
+    }
+
+    /* 圖片&註記漂浮 */
+    /* 圖片註記框線不好看，不做 */
+    /* 圖片左上右margin不做比較整齊，版面比較好看 */
+    .style01 {
+        float: left;
+        /* border: 2px solid red; */
+        margin-right: 20px;
+    }
+
+    /* 清單標籤位置 */
+    .style02 {
+        list-style-position: inside;
+        font-size: 24px;
+    }
+
+    /* 標題 */
+    .style03 {
+        text-align-last: justify;
+        letter-spacing: 3px;
+        font-size: 60px;
+        padding: 0 0 20px 0;
+        /* border: 5px solid red; */
+    }
+
+    /* 全文 */
+    .style04 {
+        background-color: rgb(252, 238, 216);
+        padding: 40px;
+    }
+
+    /* 文章上半 */
+    .style05 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    /* 文章下半 */
+    .style06 {
+        background-color: bisque;
+        font-size: 20px;
+    }
